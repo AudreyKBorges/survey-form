@@ -1,39 +1,46 @@
 <!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">  
+</head>
 <body>
 <h1 id="title">Coding Survey Form</h1>
 <p id="description">Thank you for taking time to fill out this survey.</p>
 <form id="survey-form">
-  <label for="name" id="name-label">Name</label><br>
-  <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
-  <label for="email" id="email-label">Email</label><br>
-  <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
-  <label for="number" id="number-label">Age (Optional)</label><br>
-  <input type="number" id="number" name="number" placeholder="44" min="1" max="99"><br>
+  <label for="name" id="name-label">Name</label><br></br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required><br></br>
+  <label for="email" id="email-label">Email</label><br></br>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required><br></br>
+  <label for="number" id="number-label">Age (optional)</label><br></br>
+  <input type="number" id="number" name="number" placeholder="44" min="1" max="99"><br></br>
     <label for="number" id="number-label">Where are you in your coding journey?</label><br>
   <select type="dropdown" id="dropdown" name="dropdown">
     <option value="beginner">Beginner</option>
     <option value="intermediate">Intermediate</option>
     <option value="advanced">Advanced</option>
-  </select><br>
+  </select><br></br>
   <p>Do you enjoy coding?</p>
   <input type="radio" id="yes" name="coding" value="yes">
-<label for="yes">Yes</label><br>
+<label for="yes">Yes</label><br></br>
     <input type="radio" id="no" name="coding" value="no">
-<label for="no">No</label><br>
+<label for="no">No</label><br></br>
   <p>What programming languages do you want to learn?</p>
   <input type="checkbox" id="javascript" name="javascript" value="programming">
-<label for="javascript">JavaScript</label><br>
+<label for="javascript">JavaScript</label><br></br>
   <input type="checkbox" id="python" name="python" value="programming">
-<label for="python">Python</label><br>
+<label for="python">Python</label><br></br>
     <input type="checkbox" id="c" name="c" value="programming">
-<label for="c">C++</label><br>
+<label for="c">C++</label><br></br>
   <input type="checkbox" id="java" name="java" value="programming">
-<label for="java">Java</label><br>
+<label for="java">Java</label><br></br>
     <input type="checkbox" id="other" name="other" value="programming">
-<label for="other">Other</label><br><br>
-  <label for="comment">What else would you like us to know?</label><br>
+<label for="other">Other</label><br><br></br>
+  <label for="comment">What else would you like us to know?</label><br></br>
 <textarea id="comment" name="comment" rows="4" cols="50">
-</textarea><br><br>
+</textarea><br><br></br>
   <input type="submit" id="submit" value="Submit">
 </form>
 </body>
+</html>

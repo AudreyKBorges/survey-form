@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #41f70f, #0f3df7, #1b254f, #000105);
+    background-repeat: no-repeat;    
+}
+
+h1, p, label {
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+}
+
+p {
+    font-weight: bold;
+}
+
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
