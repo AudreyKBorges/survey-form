@@ -28,8 +28,11 @@
         <input type="number" id="number" name="number" placeholder="44" min="1" max="99">
       </li>
       <li>
-        <label for="message">What else would you like us to know?</label>
-        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your message here"></textarea>
+        <label for="drop-down" id="drop-down">Where are you in your coding journey?</label>
+        <select type="dropdown" id="dropdown" name="dropdown">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
       </li>
       <li>
         <p>Do you enjoy coding?</p>
@@ -44,16 +47,22 @@
         <p>What programming languages do you want to learn?</p>
         <ul class="flex-inner">
           <input type="checkbox" id="javascript" name="javascript" value="programming">
-          <label for="javascript">JavaScript</label><br></br>
+          <label for="javascript">JavaScript</label>
             <input type="checkbox" id="python" name="python" value="programming">
-          <label for="python">Python</label><br></br>
+          <label for="python">Python</label>
               <input type="checkbox" id="c" name="c" value="programming">
           <label for="c">C++</label><br></br>
             <input type="checkbox" id="java" name="java" value="programming">
-          <label for="java">Java</label><br></br>
+          <label for="java">Java</label>
               <input type="checkbox" id="other" name="other" value="programming">
-          <label for="other">Other</label><br><br></br>
+          <label for="other">Other</label>
         </ul>
+      </li>
+          <li>
+        <label for="message">What else would you like us to know?</label>
+      </li>
+      <li>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your message here"></textarea>
       </li>
       <li>
         <button type="submit" id="submit">Submit</button>
