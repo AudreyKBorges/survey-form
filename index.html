@@ -28,21 +28,25 @@
         <input type="number" id="number" name="number" placeholder="44" min="1" max="99">
       </li>
       <li>
-        <label for="drop-down" id="drop-down">Where are you in your coding journey?</label>
+        <p>Where are you in your coding journey?</p>
         <select type="dropdown" id="dropdown" name="dropdown">
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
+        </select>
       </li>
       <li>
         <p>Do you enjoy coding?</p>
+        <div class="flex-inner">
           <input type="radio" id="yes" name="coding" value="yes">
           <label for="yes">Yes</label>
           <input type="radio" id="no" name="coding" value="no">
           <label for="no">No</label>
+        </div>
       </li>
       <li>
         <p>What programming languages do you want to learn?</p>
+        <div class="flex-inner">
           <input type="checkbox" id="javascript" name="javascript" value="programming">
           <label for="javascript">JavaScript</label>
             <input type="checkbox" id="python" name="python" value="programming">
@@ -53,11 +57,10 @@
           <label for="java">Java</label>
               <input type="checkbox" id="other" name="other" value="programming">
           <label for="other">Other</label>
-      </li>
-          <li>
-        <label for="message">What else would you like us to know?</label>
+        </div>
       </li>
       <li>
+        <label for="message">What else would you like us to know?</label>
         <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your message here"></textarea>
       </li>
       <li>

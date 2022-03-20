@@ -12,22 +12,6 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-}@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
-
-.container * {
-    box-sizing: border-box;
-}
-
-body {
-    background-image: linear-gradient(to bottom right, #41f70f, #0f3df7, #1b254f, #000105);
-    background-repeat: no-repeat;   
-    padding: 50px 0; 
-}
-
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 h1, p, label {
