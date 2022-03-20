@@ -162,6 +162,12 @@ h1, p, label {
   border-radius: 2px;
 }
 
+.flex-outer li button:hover {
+  border: 1.5px solid #0f3df7;
+  background: #41f70f;
+  color: #0f3df7;
+}
+
 .flex-inner li {
   width: 100px;
 }
